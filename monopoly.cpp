@@ -1,8 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-
 const string emptystring = "                    ";
-
 class place {       //contains all attributes of a place
   public:
     bool ifplace;
@@ -19,7 +17,6 @@ class place {       //contains all attributes of a place
     //parametrised constructor
     place(bool ifp, bool ih, string n, string co, int p, string o, bool h, int hotcos, int ren, int hotrent, int hourent);
 };
-
 place::place(bool ifp, bool ih, string n, string co, int p, string o, bool h, int hotcos, int ren, int hotrent, int hourent){
     ifplace = ifp;
     hotel = ih;
@@ -33,7 +30,6 @@ place::place(bool ifp, bool ih, string n, string co, int p, string o, bool h, in
     hotelrent = hotrent;
     houserent = hourent;
 };
-
 vector<string> split(string &str, char delimiter) {   //split a string into vector of strings
   vector<string> internal;
   stringstream ss(str); // Turn the string into a stream.
@@ -43,28 +39,24 @@ vector<string> split(string &str, char delimiter) {   //split a string into vect
   }
   return internal;
 }
-
 string chanceorcchest(string &ccc){        //returns modified chance & CommunityChest statements as a perfect fit for the board
   vector<string> parts = split(ccc, ':');
   string tobereturned = parts[2];
   for(int ext=tobereturned.size(); ext<60; ext++) tobereturned += " ";
   return tobereturned;
 }
-
 string playersandmoney(string &ccc){        //returns modified chance & CommunityChest statements as a perfect fit for the board
   vector<string> parts = split(ccc, ':');
   string tobereturned = parts[2];
   for(int ext=tobereturned.size(); ext<100; ext++) tobereturned += " ";
   return tobereturned;
 }
-
 bool isNumber(string s){            // to check if a string is a number
     for (int i = 0; i < s.length(); i++)
         if (isdigit(s[i]) == false)
             return false;
     return true;
 }
-
 int main(){
   cout<<"NOTE: PLEASE REDUCE THE FONT SIZE/ ZOOM OUT THE TERMINAL SO THAT ATLEAST 200 CHARACTERS FIT IN EACH LINE.\n\n";
   cout<<"READ THE FOLLOWING RULES AND CONVENTIONS.\nGAME RULES:\n";
