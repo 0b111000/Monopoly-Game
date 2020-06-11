@@ -68,7 +68,7 @@ bool isNumber(string s){            // to check if a string is a number
 int main(){
   cout<<"NOTE: PLEASE REDUCE THE FONT SIZE/ ZOOM OUT THE TERMINAL SO THAT ATLEAST 200 CHARACTERS FIT IN EACH LINE.\n\n";
   cout<<"READ THE FOLLOWING RULES AND CONVENTIONS.\nGAME RULES:\n";
-  cout<<"1. Players initially is given 100000/- start from 'START' and each one has only one turn to throw the dice.\n";
+  cout<<"1. Players initially are given 100000/- start from 'START' and each one has only one turn to throw the dice.\n";
   cout<<"2. Initially since no place is owned by anyone, 'owner' of all places are kept as 'none'.\n";
   cout<<"3. If a player lands on any place whose owner is 'none' and the player is willing to buy it, the owner name is changed thereafter.\n";
   cout<<"4. If that player also wishes to build house/hotel a question will be asked then. Answer accordingly.\n";
