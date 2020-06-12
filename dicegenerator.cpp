@@ -12,7 +12,7 @@ int main() {
     if(dice == 'r'){
       srand((unsigned) time(0));
       int randomNumber;
-      randomNumber = (rand() % 6) + 1;
+      randomNumber = (rand() % 12) + 1;
       cout << "Dice number : " << randomNumber << endl;
     }
   }
