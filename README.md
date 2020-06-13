@@ -6,7 +6,6 @@ It's a pure terminal application(using CLI). So, don't expect any graphics pleas
 Please let me know if there are any bugs in the application.
 
 (For windows, Monopoly.exe;
-
 For linux open a terminal and change to the directory where the Monopoly_linux_executable is present and execute it using terminal with command : ./Monoploy_linux_executable after changing the permissions to execute.)
 
 
