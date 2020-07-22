@@ -76,9 +76,9 @@ int main(){
   cout<<"6. If a player lands on a place which is owned by another one, the total rent";
   cout<<"\n(including rent with hotel/house if it has one) is also displayed for reference.\n";
   cout<<"7. The houses are represented by '[^]' and hotels as '[H]' beside the owner name.\n";
-  cout<<"8. When a player lands on JAIL, he have to pay a fine of 500/- in total and don't have next turn.\n";
+  cout<<"8. When a player lands on JAIL, he have to pay a fine of 250/- in total and don't have next turn.\n";
   cout<<"9. For that player, to skip his next turn, just enter 99 when his just next turn comes.(Other players, take care of this guy :p)\n";
-  cout<<"10. Total fine collected in two sets of 250/- each; first is when he arrives and next is when he don't play next turn(when 99 is entered).\n";
+  cout<<"10. Also, you can use 99 to skip a person's turn when ever needed.\n";
   cout<<"11. When a player lands on INCOMETAX/WEALTHTAX/CLUB/RESTHOUSE, 100/- is taken from him.\n";
   cout<<"12. You dont worry about the money calculations. Everything is taken care of.\n";
   cout<<"13. Whenever a player's money goes less than 0, it will display negative amount. But, that player is asked in his later turn to sell his places.\n";
