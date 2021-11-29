@@ -4,15 +4,14 @@
 using namespace std;
 
 int main() {
+  cout<<"Press 'Enter' to roll the dice :\n";
   while(true){
-    cout<<"Enter 'r' to roll the dice : ";
-    char dice;
-    cin>>dice;
-    if(dice == 'r'){
+    while(cin.get() == '\n'){
       srand((unsigned) time(0));
       int randomNumber;
       randomNumber = (rand() % 12) + 1;
-      cout << "Dice number : " << randomNumber << endl;
+      cout << "Dice number : " << randomNumber;
+	  cout<<"\n\nPress 'Enter' to roll the dice :\n";
     }
   }
 }
