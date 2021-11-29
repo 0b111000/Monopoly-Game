@@ -2,7 +2,7 @@ CPP = g++
 FLAGS = -O5
 RM = rm -f
 EXEC = businessgame
-OBJECTS = main.o placeClass.o helperFunctions.o gameFunctions.o
+OBJECTS = main.o placeClass.o helperFunctions.o gameFunctions.o dicegenerator.o
 
 all : $(OBJECTS) compile
 
