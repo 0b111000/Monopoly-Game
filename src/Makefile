@@ -2,7 +2,7 @@ CPP = g++
 FLAGS = -O5
 RM = rm -f
 EXEC = businessgame
-OBJECTS = main.o placeClass.o helperFunctions.o gameFunctions.o dicegenerator.o
+OBJECTS = main.o placeClass.o helperFunctions.o gameFunctions.o
 
 all : $(OBJECTS) compile
 
@@ -29,4 +29,4 @@ compile :
 	$(CPP) $(FLAGS) $(OBJECTS) -o $(EXEC)
 
 clean :
-	$(RM) $(OBJECTS) $(EXEC) dicegenerator
+	$(RM) $(OBJECTS) $(EXEC) dicegenerator dicegenerator.o
